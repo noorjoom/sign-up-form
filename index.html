@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left">
+        <img id="logo" src="images/odin-logo.png" alt="top-odin">
+        <img  id="leaf" src="images/green-lead-bg.jpg" alt="green-leaf">
+    </div>
+    <div class="right">
+        <div class="text">
+            <p>
+                This is not a real online service! You know you need 
+                something like this in your life to help you realize
+                your deepest dreams.
+            </p>
+            <p>
+                You know you want to.
+            </p>
+        </div>
+
+        <div class="form">
+            <p id="form-text">
+                Let's do this!
+            </p>
+
+            <form action="">
+                <div class="left-form">
+                    <div>
+                        <label for="first-name">FIRST NAME</label>
+                    </div>
+                    <input type="text" id="first-name">
+                    <div>
+                        <label for="email">EMAIL</label>
+                    </div>
+                    <input type="email" id="email" required>
+                    <div>
+                        <label for="password">PASSWORD</label>
+                    </div>
+                    <input type="password" id="password" required>
+                </div>
+    
+                <div class="right-form">
+                    <div>
+                        <label for="last-name">LAST NAME</label>
+                    </div>
+                    <input type="text" id="last-name">
+                    <div>
+                        <label for="phone-number">PHONE NUMBER</label>
+                    </div>
+                    <input type="number" id="phone-number" required>
+                    <div>
+                        <label for="c-password">CONFIRM PASSWORD</label>
+                    </div>
+                    <input type="password" id="c-password" required>
+                </div>
+            </form>
+        </div>
+
+        <div class="login">
+            <button type="submit">Create Account</button>
+            <p>
+                Already have an account? <a href="">Log in</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
